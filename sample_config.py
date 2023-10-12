@@ -21,13 +21,13 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "94b097998834f20d21e5fed8a1586c18")
 
     # Authorized users to use this bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5123039648").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5123039648 5821628687").split())
 
     # session name
     TG_USER_SESSION_NAME = os.environ.get("TG_USER_SESSION_NAME", "Delete User Bot")
 
     # tg user session string
-    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "BQEsG5cAuELcD60gt5HBp-ld38zWsxe26O0CFo6i34BVzQW5XYxdxrOSF1g6tsFe_WtxWTghifKEl7tI9B4eV51wzacu8JdDenj--ghkZEjraZ6_RJmCsu6gReczSA1gK65ndtT-yRwOoX7q-V4UcSIJbr6N26f4BxF-_sWVxxunPFariISTJW7iXZqtCOcMg-dfB5EMmWcd6oczZStOM2xvys7hK8IG-9sQYhjmlkV7OtWffa4-1AtAvSR2fiJPpj2ugXtmoIXb0FXBsTUzMoGgBzkC8ePjPB9IvbrPMYDMYqTB2qZ0oxY4ZzDFukAJld2lPI1JVExqQhrutEjKLLPl9evQYQAAAAGHcvUbAQ")
+    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "BQEsG5cAqHFdAzfuT7FtpkYqkgkCSsDEniz5qhRdFv05YTWPAjBmlHMSOfwrTtF-QjxXj8UlSdiyF1kKqkUpgmYLQASOM4JZ00FYk8fE1RvROWiDYycxMLykPFJPK4tbVh3kZS9avxxh8AAjFgZtTwdbub_b2f6ZwMtHxMhrMXtrgqj0kMQHF9xcqBXxslDVt4shYsUkZ0DTbLYMG7sG2M6V9fQ4nHIXOLQh5sSm2ABJvkS29WK1EVLD0gVBDu2OmRDDz4PJS9ICHHn1Z9QGhFeFCHXoeSssVU0mxHuHZ8Tj7sYKx5vBz7cCoFI4gkmAHfK33hMxCYhH3afI2uz-5-lxOtzpbwAAAAFa_wEPAA")
 
 
 def LOGGER(name: str) -> logging.Logger:
